@@ -1,4 +1,37 @@
-.background-image {
-    width: 100%;
-    z-index: 0;
+body {
+    background-color: cadetblue;
+}
+
+.topnav {
+    background-color: darkblue;
+    color: darkgray;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: darkgray;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+img {
+    
 }
